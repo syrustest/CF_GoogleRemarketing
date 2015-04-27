@@ -1,11 +1,8 @@
 {
     
-    "name": "App name",
-    "description"
-Describe your app
-Use a sentence or two to tell users what your app does. Cannot be longer than 200 characters
-: "Describe the app in a sentence or two",
-    "version": "0.7",
+    "name": "Add Google Remarketing",
+    "description": "Add google remarketing codes to outputs view",
+    "version": "0.1",
     "category": "analytics",
     "main": "public/javascripts/app_module.js",
     "config":{
@@ -55,21 +52,4 @@ Use a sentence or two to tell users what your app does. Cannot be longer than 20
             }
         ]
     },
-    "account": {
-        "callback_url": "http://countersback.herokuapp.com/api",
-        "user_fields": ["email"]
-    },
-    "billing": {
-        "type": "zone",
-        "plans":[
-            {
-                "name" : "Chowder",
-                "price": "3.20"
-            },
-            {
-                "name" : "Minestrone",
-                "price" : "6.55"
-            }
-        ]
-    }
 }
